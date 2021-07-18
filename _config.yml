@@ -51,7 +51,7 @@ highlight:
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -109,3 +109,38 @@ theme: hexo-theme-next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+  # hexo-admin authentification
+admin:
+   username: lichongbing
+   password_hash: $2a$10$.OtbYoTuUrGn3YjZp9V31u7y3cp65YuhL7Qa.1XpHO57NoR.CpcW.
+   secret: 2014bijiehun 
+   # Extensions
+   # ## Plugins: http://hexo.io/plugins/
+   # #RSS订阅
+   #feed:
+   #enable: true
+   #type: atom
+   #path: atom.xml
+   #limit: 20
+restful:
+        site: true
+        post_size: 15
+        posts_props:
+                title: true
+                slug: true
+                date: true
+                updated: true
+                comments: true
+                path: true
+                excerpt: false 
+                cover: true 
+                content: true
+                keywords: true
+                categories: true
+                tags: true
+        categories: true 
+        use_category_slug: true
+        tags: true
+        use_tag_slug: true 
+        post: true 
+        pages: true
